@@ -1,0 +1,20 @@
+body {
+	font-family: 'Open Sans', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', "Heiti TC", "文泉驛微米黑", "微軟正黑體", "Droid Sans Fallback", serif;
+	font-weight: 400;
+}
+
+#info {
+	background: #0E0E0D;
+	padding: 0;
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.nav {
+	font-weight: 400;
+	font-size: 18px
+}
