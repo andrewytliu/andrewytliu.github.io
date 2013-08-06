@@ -7,6 +7,24 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
+.center-box {
+	text-align: center;
+	overflow: hidden;
+}
+
+.center-box:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	/*margin-right: -0.25em;*/
+}
+
+.centered {
+	display: inline-block;
+	vertical-align: middle;
+}
+
 #info {
 	background: #0E0E0D;
 	padding: 0;
