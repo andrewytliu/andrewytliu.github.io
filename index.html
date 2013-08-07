@@ -3,6 +3,18 @@
 <head>
     <title>Andrew Liu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38938657-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -39,7 +51,7 @@
                 </div>
                 <h4>Taiwanese Air Force<br><small>08/2012-07/2013</small></h4>
                 <ul class="list-unstyled icons-ul">
-                    <li><i class="icon-li icon-user"></i>Second lieutenant</li>
+                    <li><i class="icon-li icon-user"></i>Second Lieutenant</li>
                     <li><i class="icon-li icon-pencil"></i>1 year mandatory service</li>
                 </ul>
             </div>
@@ -50,7 +62,7 @@
                 <h4><a href="http://www.ntumobile.org/">NTU Mobile HCI Lab</a><br><small>08/2011-08/2012</small></h4>
                 <ul class="list-unstyled icons-ul">
                     <li><i class="icon-li icon-user"></i>Project Leader</li>
-                    <li><i class="icon-li icon-pencil"></i>Mobile HCI Research</li>
+                    <li><i class="icon-li icon-pencil"></i>Mobile HCI research</li>
                 </ul>
             </div>
             <div class="col-lg-3">
@@ -81,13 +93,14 @@
         <h2 id="project">Projects</h2>
         <div class="row">
             <div class="col-lg-4">
-                <img src="img/mpgdec.jpg" alt="MPEG-1 Decoder" class="img-responsive">
+                <img src="img/mpgdec.jpg" alt="MPEG-1 Decoder" class="img-responsive img-thumbnail">
                 <h4>MPEG-1 Decoder<br><small class="text-right">06/2012</small></h4>
                 <p><span class="label label-info">Class Project</span>
                 <span class="label label-warning">C</span></p>
                 <ul class="list-unstyled icons-ul">
                     <li><i class="icon-li icon-code"></i><a href="https://bitbucket.org/eggegg/mpgdec">Source code <i class="icon-bitbucket"></i></a></li>
-                    <li><i class="icon-li icon-pencil"></i>Final project for Information Theory and Coding Techiques. A MPEG-1 decoder from scratch, supporting I, P and B frames.<br>I implemented segmented variable length lookup-table to reduce the search time while maintaining a reasonable memory usage. Also, multiple frame buffer helps reduce the time of memory allocation.</li>
+                    <li><i class="icon-li icon-archive"></i><a href="http://www.cmlab.csie.ntu.edu.tw/~itct/">Information Theory and Coding Techiques</a></li>
+                    <li><i class="icon-li icon-pencil"></i>A MPEG-1 decoder from scratch, supporting I, P and B frames.<br>I implemented segmented variable length lookup-table to reduce the search time while maintaining a reasonable memory usage. Also, multiple frame buffer helps reduce the time of memory allocation.</li>
                 </ul>
             </div>
             <div class="col-lg-4">
@@ -98,22 +111,66 @@
                 <ul class="list-unstyled icons-ul">
                     <li><i class="icon-li icon-file"></i><a href="http://dl.acm.org/citation.cfm?id=2481424">Paper</a></li>
                     <li><i class="icon-li icon-youtube-play"></i><a href="http://www.youtube.com/watch?v=HkgJDIs2oeY">Video</a></li>
-                    <li><i class="icon-li icon-group"></i>Lung-Pan Cheng, Meng Han Lee, Che-Yang Wu, Fang-I Hsiao, Hsiang-Sheng Liang, Yi-Ching Chiu, Ming-Sui Lee, Mike Y. Chen</li>
+                    <li><i class="icon-li icon-group"></i>Team: Lung-Pan Cheng, Meng Han Lee, Che-Yang Wu, Fang-I Hsiao, Hsiang-Sheng Liang, Yi-Ching Chiu, Ming-Sui Lee, Mike Y. Chen</li>
                     <li><i class="icon-li icon-pencil"></i>iRotateGrasp automatically rotates screens of mobile devices to match users’ viewing orientations based on how users are grasping the devices. It can rotate screens correctly in different postures and device orientations without explicit user input.</li>
                 </ul>
             </div>
             <div class="col-lg-4">
                 <div class="text-center">
-                    <img src="img/soundsense.png" alt="SoundSense" class="img-responsive text-center">
+                    <img src="img/soundsense.png" alt="SoundSense" class="img-responsive">
                 </div>
-                <h4>IrotateGrasp: automatic screen rotation based on grasp of mobile devices<br><small class="text-right">05/2012</small></h4>
+                <h4>SoundSense: 3D gesture sensing using ultrasound on mobile devices<br><small class="text-right">05/2012</small></h4>
                 <p><span class="label label-info">Research Project</span>
                 <span class="label label-warning">Android, Arduino</span></p>
                 <ul class="list-unstyled icons-ul">
                     <li><i class="icon-li icon-file"></i><a href="file/soundsense.pdf">Paper</a></li>
                     <li><i class="icon-li icon-youtube-play"></i><a href="http://www.youtube.com/watch?v=LbwLZFGUo4U">Video</a></li>
-                    <li><i class="icon-li icon-group"></i>Che-Yang Wu, Pi-Hsun Shih, Hsiang-Sheng Liang, Mike Y. Chen</li>
+                    <li><i class="icon-li icon-group"></i>Team: Che-Yang Wu, Pi-Hsun Shih, Hsiang-Sheng Liang, Mike Y. Chen</li>
                     <li><i class="icon-li icon-pencil"></i>SoundSense is an approach to detect 3D gestures using ultrasonic rangefinders. Compared to other computer vision and proximity sensors techniques, our method consumes less power, which is suitable for mobiles devices, while retaining 82.2% cross-validation accuracy. </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="text-center">
+                    <img src="img/vebdew.jpg" alt="Vebdew" class="img-responsive img-thumbnail">
+                </div>
+                <h4>Vebdew<br><small class="text-right">04/2012</small></h4>
+                <p><span class="label label-success">Open Source</span>
+                <span class="label label-warning">HTML5, Ruby</span></p>
+                <ul class="list-unstyled icons-ul">
+                    <li><i class="icon-li icon-code"></i><a href="https://github.com/eggegg/vebdew">Source Code <i class="icon-github"></i></a></li>
+                    <li><i class="icon-li icon-globe"></i><a href="http://andrew-liu.info/vebdew/">Website</a></li>
+                    <li><i class="icon-li icon-group"></i>Team: Hsiang-Sheng Liang</li>
+                    <li><i class="icon-li icon-pencil"></i>Vebdew converts <b>vew files</b> (A markdown-like markup) into HTML5 slides. It's simple and easy. No extra server is needed.<br>
+                    Vebdew is rendered by <a href="http://www.kuwata-lab.com/erubis/">erubis</a> (Ruby template engine). HTML5 slides effect is supported by <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center">
+                    <img src="img/scrambler.jpg" alt="Scrambler" class="img-responsive img-thumbnail">
+                </div>
+                <h4>Scrambl.er<br><small class="text-right">03/2012</small></h4>
+                <p><span class="label label-danger">Fun</span>
+                <span class="label label-warning">HTML5, Ruby</span></p>
+                <ul class="list-unstyled icons-ul">
+                    <li><i class="icon-li icon-globe"></i><a href="http://scrambler.herokuapp.com/">Website</a></li>
+                    <li><i class="icon-li icon-group"></i>Team: Hsiang-Sheng Liang</li>
+                    <li><i class="icon-li icon-pencil"></i>Have you played <a href="https://www.facebook.com/playdrawsomething">Draw Something</a>? If you do, then you know how frustrating it is to play with someone who just cannot draw. Use Scrambl.er to solve the mystery and help your friend build up self-confidence.</li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <div class="text-center">
+                    <img src="img/abelian.png" alt="Abelian Kingdom" class="img-responsive img-thumbnail">
+                </div>
+                <h4>Abelian Kingdom<br><small class="text-right">02/2012</small></h4>
+                <p><span class="label label-info">Class Project</span>
+                <span class="label label-warning">Ruby on Rails, Coffeescript, Google Map API</span></p>
+                <ul class="list-unstyled icons-ul">
+                    <li><i class="icon-li icon-globe"></i><a href="http://abeliankingdom.herokuapp.com/">Website</a></li>
+                    <li><i class="icon-li icon-group"></i>Team: Pi-Hsun Shih, Han-Jay Yang</li>
+                    <li><i class="icon-li icon-archive"></i><a href="http://wmnlab.ee.ntu.edu.tw/nmlab/">Electrical Engineering Lab (Networking and Multimedia)</a></li>
+                    <li><i class="icon-li icon-pencil"></i>Multiplayer online webpage RPG, based on real-life map. Players can interact with the virtual store which exists in the real-world. And of course, you can fight with other players.</li>
                 </ul>
             </div>
         </div>
