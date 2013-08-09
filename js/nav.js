@@ -16,7 +16,7 @@ $(window).load(function() {
 		// fixing the gap
 		$('.navbar-nav a').click(function(e) {
 			e.preventDefault();
-			var offset = $($(this).attr('href')).offset().top;
+			var offset = $($(this).attr('href')).offset().top + 1;
 			if ($(window).width() > 768) {
 				offset -= $('#info').height();
 			}
