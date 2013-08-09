@@ -16,10 +16,11 @@ $(function() {
 		// fixing the gap
 		$('.navbar-nav a').click(function(e) {
 			e.preventDefault();
-			$($(this).attr('href'))[0].scrollIntoView();
+			var offset = $($(this).attr('href')).offset().top;
 			if ($(window).width() > 768) {
-		    	scrollBy(0, -$('#info').height());
+				offset -= $('#info').height();
 			}
+			scrollTo(0, offset);
 		});
 	}
 
