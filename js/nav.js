@@ -1,7 +1,5 @@
-$(function() {
+$(window).load(function() {
 	var responsive = function() {
-		console.log("pic:", $('#pic').height());
-		console.log("info:", $('#info').height());
 		// set pad
 		$('#pad').height($('#info').height());
 		// affix
