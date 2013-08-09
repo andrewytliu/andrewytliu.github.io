@@ -27,12 +27,12 @@
 </head>
 
 <body>
-    <div class="jumbotron info">
+    <div class="jumbotron bump" id="pic">
         <div class="container">
             <img src="img/info.jpg" class="img-responsive">
         </div>
     </div>
-    <div class="container">
+    <div id="info"><div class="container">
         <div class="clearfix">
             <h1 class="pull-left">劉彥廷 Andrew Liu <small>Yen-Ting Liu</small></h1>
             <h1 class="pull-right">
@@ -45,7 +45,7 @@
         <p class="lead">
             I'm a student at Stanford. I enjoy building, coding, hacking and song-writing, generally the process of making something new.
         </p>
-        <div class="navbar">
+        <div class="navbar" id="nav">
             <ul class="nav navbar-nav">
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -54,10 +54,11 @@
                 <li><a href="#band">Band</a></li>
             </ul>
         </div>
-    </div>
+    </div></div>
+    <div id="pad"></div>
     <div class="container">
-        <div class="clearfix">
-            <h2 id="experience" class="pull-left">Experience</h2>
+        <div class="clearfix" id="experience">
+            <h2 class="pull-left">Experience</h2>
             <h2 class="pull-right"><a href="#"><i class="icon-chevron-sign-up"></i></a></h2>
         </div>
         <div class="row">
@@ -106,8 +107,8 @@
         </div>
     </div>
     <div class="pane"><div class="container">
-        <div class="clearfix">
-            <h2 id="projects" class="pull-left">Projects</h2>
+        <div class="clearfix" id="projects">
+            <h2 class="pull-left">Projects</h2>
             <h2 class="pull-right"><a href="#"><i class="icon-chevron-sign-up"></i></a></h2>
         </div>
         <div class="row">
@@ -415,8 +416,8 @@
         </div>
     </div></div>
     <div class="container">
-        <div class="clearfix">
-            <h2 id="publications" class="pull-left">Publications</h2>
+        <div class="clearfix" id="publications">
+            <h2 class="pull-left">Publications</h2>
             <h2 class="pull-right"><a href="#"><i class="icon-chevron-sign-up"></i></a></h2>
         </div>
         <h3><a href="http://dl.acm.org/citation.cfm?id=2481424">IrotateGrasp: automatic screen rotation based on grasp of mobile devices</a></h3>
@@ -433,8 +434,8 @@
         </p>
     </div>
     <div class="pane"><div class="container">
-        <div class="clearfix">
-            <h2 id="talks" class="pull-left">Talks</h2>
+        <div class="clearfix" id="talks">
+            <h2 class="pull-left">Talks</h2>
             <h2 class="pull-right"><a href="#"><i class="icon-chevron-sign-up"></i></a></h2>
         </div>
         <div class="row">
@@ -496,13 +497,13 @@
         <p class="text-right"><i class="icon-globe"></i> Slides on <a href="https://speakerdeck.com/eggegg"> Speaker Deck</a></p>
     </div></div>
     <div class="container">
-        <div class="clearfix">
-            <h2 id="band" class="pull-left">Band</h2>
+        <div class="clearfix" id="band">
+            <h2 class="pull-left">Band</h2>
             <h2 class="pull-right"><a href="#"><i class="icon-chevron-sign-up"></i></a></h2>
         </div>
         <div class="row">
-            <div class="col-lg-4 text-center">
-                <div class="embed-container">
+            <div class="col-lg-4">
+                <div class="embed-container text-center">
                     <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fprototypeband&amp;width=292&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:258px;" allowTransparency="true"></iframe>
                 </div>
             </div>
@@ -518,7 +519,7 @@
             </div>
         </div>
     </div>
-    <div class="jumbotron info ending">
+    <div class="jumbotron bump ending">
         <div class="container">
             Andrew Liu @ 2013
         </div>
@@ -528,5 +529,6 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 </html>

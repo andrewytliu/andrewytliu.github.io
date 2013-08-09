@@ -7,6 +7,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 }
 
+h1, h2, p {
+	padding-left: 10px;
+}
+
+.pull-right {
+	padding-right: 10px;
+}
+
 .center-box {
 	text-align: center;
 	overflow: hidden;
@@ -25,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	vertical-align: middle;
 }
 
-.info {
+.bump {
 	background: #0E0E0D;
 	padding: 0;
 	margin-bottom: 0;
@@ -61,4 +69,30 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+#info {
+	background: #fff;
+	z-index: 1000;
+}
+
+#info + div {
+	display: none;
+}
+
+.affix {
+	left: 0;
+	right: 0;
+	top: 0;
+	position: static;
+}
+
+@media (min-width: 768px) {
+	.affix {
+		position: fixed;
+	}
+
+	#info.affix + div {
+		display: block;
+	}
 }
