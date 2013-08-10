@@ -1,4 +1,4 @@
-$(window).load(function() {
+$(function() {
 	var responsive = function() {
 		// set pad
 		$('#pad').height($('#info').height());
