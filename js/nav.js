@@ -5,7 +5,7 @@ $(window).load(function() {
 		// affix
 		$('#info').affix({
 			offset: {
-				top: $('#pic').height()
+				top: $('#pic').height() - $('#info').height()
 			}
 		});
 		// scrollspy
